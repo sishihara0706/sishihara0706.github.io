@@ -1,0 +1,266 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #888;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.top-section,.language-section,.feature-section,.message-section,.pricing-section {
+  text-align:center;
+}
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color:white;
+  background-color: rgba(200,200,200,0.7);
+}
+.header-left {
+  float: left;
+  /* color:white; */
+  padding: 20px 0;
+}
+.header-left a {
+  font-size: 22px;
+  color: #444;
+  font-weight: 700;
+}
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 15px 0;
+  display: none;
+  color: #444;
+}
+.header-right {
+  float: right;
+}
+.header-right li {
+  padding-top: 8px;
+  float: left;
+  padding-right: 20px;
+}
+.header-right a {
+  color: black;
+
+}
+.top-section {
+  background-image: url("https://ucarecdn.com/02a48e4a-2cb3-458c-ac3e-571095168b61/-/autorotate/yes/");
+}
+.top-section h1 {
+  font-size: 45px;
+  color: white;
+}
+.top-section p {
+  color: white;
+}
+.btn {
+  display: inline-block;
+  color: white;
+  padding:12px 20px;
+  border-radius: 5px;
+}
+.start-btn {
+  background-color: #55acee;
+  margin-top: 10px;
+}
+.top-padding {
+  padding: 200px 0;
+}
+.heading {
+  padding-top: 70px;
+}
+.heading h2 {
+  color: #555555;
+  font-size: 32px;
+  font-weight: normal;
+}
+.top-text {
+  display: none;
+}
+.lang-btn {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: none;
+  opacity: 0.7;
+}
+.lang-btn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.htmlcss-btn {
+  background-color: rgba(0,255,255,0.7);
+}
+.javascript-btn {
+  background-color: rgba(255,255,0,0.9);
+}
+.jquery-btn {
+  background-color: rgba(255,150,0,0.7);
+}
+
+.php-btn {
+  background-color: rgba(255,0,255,0.7);
+}
+.ruby-btn {
+  background-color: rgba(255,0,0,0.7);
+}
+.rails-btn {
+  background-color: rgba(255,0,150,0.7);
+}
+.btn-wrapper {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border-bottom: solid #ccc 1px;
+}
+.language h2 {
+  color: #5e6f84;
+  font-size: 40px;
+  padding: 30px 0;
+  margin: 10px 0;
+}
+.language p {
+  color: #5e6f84;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.languages {
+  padding-bottom: 80px;
+  border-bottom: 1px #ccc solid;
+}
+.language {
+  display: none;
+}
+.active {
+  display: block;
+}
+h5 {
+  color: #444;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.features {
+  padding: 50px 0;
+}
+.feature {
+  margin-bottom: 50px;
+}
+.message-section {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/01/51/665801c10dee0f8.jpg");
+  background-size: cover;
+}
+.message-inner {
+  padding: 100px 0;
+}
+.message-inner p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.course {
+  width: 50%;
+  float: left;
+  padding: 0 40px;
+}
+.course-wrapper {
+  padding-top: 80px;
+}
+.price-head {
+  width: 100%;
+}
+.price-head h2 {
+  font-size: 20px;
+  color: white;
+}
+.head-free {
+  padding: 30px 0;
+  background-color: #323a45;
+}
+.head-toll {
+  padding: 30px 0;
+  background-color: #0dc0d0;
+}
+.price-desc {
+  background-color: #f0f0f0;
+}
+.text-content {
+  padding: 30px 0;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.fee {
+  color: #555;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 0;
+}
+hr {
+  margin: 0;
+}
+
+.clear {
+  clear: left;
+}
+.pricing-section {
+  margin-bottom: 70px;
+}
+.contact-section {
+  background-image: url("http://nobon.me/wp-content/uploads/2013/03/1920x1080_08-001.jpg");
+  background-size: cover;
+}
+.contact-section h2 {
+  margin: 0;
+  color: #222;
+  text-align: center;
+  padding-bottom: 50px;
+}
+form p {
+  color: #222;
+  font-size: 25px;
+  font-weight: bold;
+}
+input,textarea {
+  padding:15px;
+  font-size: 20px;
+  background-color: rgba(255,255,255,0.3);
+  border: none;
+  width: 85%;
+  margin-bottom: 30px;
+}
+textarea {
+  height: 150px;
+}
+.submit {
+  display: block;
+  width: 140px;
+  background-color: #0dc0c0;
+  text-align: center;
+  font-weight: bold;
+}
+form {
+  padding-bottom: 50px;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #aaa;
+  text-align: center;
+  color: #222;
+}
