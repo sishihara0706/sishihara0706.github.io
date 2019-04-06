@@ -1,0 +1,79 @@
+@media (max-width: 1000px){
+  .top-section h1{
+    font-size: 32px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .language h2 {
+    font-size: 30px;
+  }
+  .language p {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .lang-btn {
+    font-size: 20px;
+  }
+  form p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:670px){
+  .top-section h1{
+    font-size: 24px;
+  }
+  .top-padding {
+    padding: 150px 0;
+  }
+  .header-left {
+    padding: 25px 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  .header-left a {
+    font-size: 16px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .language h2 {
+    font-size: 20px;
+  }
+  .language p {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .lang-btn {
+    font-size: 18px;
+  }
+  .course-wrapper {
+    padding-top: 40px;
+  }
+  .course {
+    width: 100%;
+  }
+  .heading {
+    padding-top: 40px;
+  }
+  .free {
+    padding-bottom: 40px;
+  }
+  form p{
+    font-size: 14px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  input,textarea {
+    font-size: 14px;
+  }
+}
